@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+html
+  head
+    meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+      
+    link(rel="stylesheet" type="text/css" href="libs/animation/animate_custom.css")
+    link(rel="stylesheet" type="text/css" href="libs/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="libs/slick/slick.css")
+    link(rel="stylesheet" type="text/css" href="css/main.css?v2")
+    
+    link(rel="shortcut icon" href="images/favicon.png" type="image/x-icon")
+    
+    title iDiscount
+    
+    //ie
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" type="text/css" href="css/ie-style.css" />
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  body
+    #page
+      //-VIEW START
+      //-VIEW START
+      
+      header#first
+        .container
+          .header-menu
+            .logo
+              a(href="#") iDiscount
+            nav
+              ul
+                li
+                  a(href="#") Блог
+                li
+                  a(href="#") О нас
+                li
+                  a(href="#") API
+          .void-space
+          .main-content        
+            h1 Теперь выдать дисконтную карту просто — нужен только смартфон
+            p iDiscount позволяет быстро и удобно организовать систему лояльности, не прибегая к лишним затратам на пластик и оборудоване
+            a.main-button(href="http://biz.idiscount.by/") Вход для компаний
+
+          .to-bottom
+            .text Хотите знать больше?
+            .arrow
+              i.arrow-down
+      .path-wrap
+        #path-line
+        section#second.landing-rows.path-watch(data-path="path-1")
+          .container 
+            .circle   
+            .tag
+              .tag-title Ключевые особенности
+              .tag-icon
+            .row
+              .col-6.left
+                .illustration
+                  img(src="images/illustrations/row-1.png")
+              .col-6.right
+                .content-side
+                  h2 Выдача карты в один клик
+                  p Для выпуска электронной карты достаточно заполнить простую форму и можно забыть о лишних бизнес-операциях и расходах на заказ пластиковых карт.
+
+        section#third.landing-rows.path-watch.path-watch(data-path="path-2")
+          .container
+            .circle
+            .row
+              .col-6.right
+                .illustration
+                  img(src="images/illustrations/row-2.png")
+              .col-6.left
+                .content-side
+                  h2 Карта превращается в не теряющуюся визитку
+                  p При помощи облачных технологий вы сможете получить доступ к своим картам с любого устройства и никогда не потеряете их.
+                  p Каждая электронная карта позволяет хранить все адреса и контакты компании с возможностью связи в один клик.
+
+        section#fourth.landing-rows.path-watch(data-path="path-3")
+          .container
+            .circle
+            .row
+              .col-6.left
+                .illustration
+                  img(src="images/illustrations/row-3.png")
+              .col-6.right
+                .content-side
+                  h2 Гибко настраиваемые <span>push-уведомления</span>
+                  p Наш сервис Push-уведомлений позволяет донести любую информацию до клиента и сэкономить на рекламе.
+                  p Формат уведомлений позволяет показать пользователю текст, картинку, индивидуальный звук, и закончить уведомление активными кнопками действия, возможностью перехода на внешнюю ссылку.
+
+        section#fiveth.landing-rows.path-watch(data-path="path-4")
+          .container
+            .circle
+            .row
+              .col-6.right
+                .illustration
+                  img(src="images/illustrations/row-4.png")
+              .col-6.left
+                .content-side
+                  h2 Удобный API для интеграции с клиентской базой
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus sapien, tincidunt sed lacus quis, accumsan laoreet massa. Suspendisse tempus massa arcu, sit amet finibus mauris malesuada sit amet. Nullam maximus arcu diam, ut posuere erat pharetra vel.
+              
+        section#sixth.landing-rows.path-watch(data-path="path-5")
+          .container
+            .circle
+            .row
+              .col-6.left
+                .illustration
+                  img(src="images/illustrations/row-5.png")
+              .col-6.right
+                .content-side
+                  h2 Интеграция с каталогами товаров VK
+                  p Подключив свою группу VK к аккаунту iDiscount, у вас появится возможность привязать к вашим карточкам каталог товаров из вашей группы. Цены на все товары будут указаны с учётом скидки.
+        
+      //-               REVIEWS
+      section#seventh
+        .container
+          h2 Отзывы наших клиентов
+          .slider
+            -
+              slider_array = [
+                {
+                  image: "images/avatar.png",
+                  name: "Николас Кейдж",
+                  about: 'генеральный директор ОАО «Старые забытые актёры»',
+                  text: ['Предел последовательности позитивно уравновешивает аксиоматичный скачок функции. Используя таблицу интегралов элементарных функций, получим: пустое подмножество создает неопровержимый двойной интеграл, как и предполагалось. Функция многих переменных трансформирует интеграл по поверхности.']
+                },
+                {
+                  image: "images/avatar.png",
+                  name: "Николас Кейдж 2",
+                  about: 'генеральный директор ОАО «Старые забытые актёры»',
+                  text: ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quae ipsam alias esse rem provident a architecto, praesentium ducimus maiores deserunt neque, eum incidunt quisquam voluptatum similique sint ea, laborum.']
+                },
+                {
+                  image: "images/avatar.png",
+                  name: "Николас Кейдж 3",
+                  about: 'генеральный директор ОАО «Старые забытые актёры»',
+                  text: [
+                    'Officiis rem libero ipsam deleniti veniam labore odio aut! Eum doloribus similique iure.', 
+
+                    'Reiciendis, consequatur quae dolores, repellat fugiat et minima explicabo, porro, aut doloribus accusantium at nam nesciunt reprehenderit.'
+                  ]
+                }
+              ]
+
+            each item in slider_array
+              div.slider-elem
+                .inner
+                  .avatar
+                    img(src="" + item.image)
+                  .title= item.name
+                  .about= item.about
+                  .text
+                    each paragraph in item.text
+                      p= paragraph
+
+      //-            PRICES
+      section#eighth
+        .container
+          h2 Планы подписки
+          .price-area
+            .prices
+              .type-list
+                ul
+                  each item, i in ['Количество выпущенных карт', 'Количество аккаунтов', 'Личный дизайн карт', 'Все виды скидок', 'Push-уведомления']
+                    li(class="item-" + (i+1))= item
+
+              .tariffs
+                -
+                  tar_array = [
+                    {
+                      name: "Стартовый",
+                      cards: '100',
+                      accounts: '3',
+                      design: true,
+                      discounts: true,
+                      pushes: false,
+                      price: false
+                    },
+                    {
+                      name: "Малый бизнес",
+                      cards: '10.000',
+                      accounts: '15',
+                      design: true,
+                      discounts: true,
+                      pushes: '10.000',
+                      price: {
+                        month: '$9.00',
+                        year: '$97.20'
+                      }
+                    },
+                    {
+                      name: "Средний бизнес",
+                      cards: '50.000',
+                      accounts: '50',
+                      design: true,
+                      discounts: true,
+                      pushes: '50.000',
+                      price: {
+                        month: '$49.00',
+                        year: '$529.20'
+                      }
+                    },
+                    {
+                      name: "Крупный бизнес",
+                      cards: 'Неограничено',
+                      accounts: 'Неограничено',
+                      design: true,
+                      discounts: true,
+                      pushes: '100.000',
+                      price: {
+                        month: '$99.00',
+                        year: '$1069.20'
+                      }
+                    }
+                  ]
+
+                each item, index in tar_array
+                  .tarif(class="tarif-" + (index + 1))
+                    .tarif-inner
+                      .tarif-title= item.name
+                      ul
+                        li= item.cards
+                        li= item.accounts
+                        li
+                          if item.design == true
+                            i.check
+                          else
+                            = ""
+                        li
+                          if item.discounts == true
+                            i.check
+                          else
+                            = ""
+                        li
+                          if item.pushes == false
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                          else  
+                            = item.pushes
+                    
+                    if item.price == false
+                      .price-free= "Бесплатно"
+                    else
+                      .price-cost
+                        .month= item.price.month
+                          span за месяц
+                        .year= item.price.year
+                          span за год
+
+      footer#nineth
+        .container
+          .col-6.col-offer
+            h2 Хотите попробовать?
+            p Вы можете <a href="#">бесплатно зарегистрироваться</a> в нашем сервисе и сразу начать пользоваться стартовым планом подписки через веб-версию, либо скачать приложение «iDiscount» по ссылкам, доступным ниже.
+            .apps-buttons
+              a.apple-btn(href="#")
+              a.android-btn(href="#")
+
+            h3 Контакты
+            .contacts
+              .phone <span>+375 (29)</span>664-22-22
+              .mail marketting@idiscount.by
+            .social
+              a.social-vk(href="#")
+              a.social-twi(href="#")
+              a.social-fb(href="#")
+
+          .col-6.col-form
+            form.commerce-request
+              .form-title Заявка на коммерческое предложение
+              -
+                form_array = [
+                  {id: "f_company", value: 'Название компании'},
+                  {id: "f_name", value: 'ФИО Контактного лица'},
+                  {id: "f_position", value: 'Должность контактного лица'},
+                  {id: "f_email", value: 'E-mail'},
+                  {id: "f_phone", value: 'Телефон'},
+                  {id: "f_message", value: 'Сообщение'}
+                ]
+              for item in form_array
+                
+                if item.id == "f_message"
+                  fieldset
+                    textarea(id="" + item.id name="" + item.id rows="3" class="input_onkeyup")
+                    label(for="" + item.id)= item.value
+                else
+                  fieldset
+                    input(type="text" id="" + item.id name="" + item.id class="input_onkeyup")
+                    label(for="" + item.id)= item.value
+              
+              input(type="submit" value="Получить коммерческое предложение")
+
+      section#tenth
+        .container
+          span iDiscount, LLC © 2015
+      //-VIEW END
+      //-VIEW END
+      
+    script(type="text/javascript" src="js/jquery-1.12.2.min.js")
+    script(type="text/javascript" src="libs/smoothscroll/smoothscroll_1.4.js")
+    script(type="text/javascript" src="libs/viewportchecker/jquery.viewportchecker.js")
+    script(type="text/javascript" src="libs/slick/slick.min.js")
+    script(type="text/javascript" src="js/main.js?v2")
