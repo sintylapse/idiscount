@@ -166,7 +166,8 @@ html
               .type-list
                 ul
                   each item, i in ['Количество выпущенных карт', 'Количество аккаунтов', 'Личный дизайн карт', 'Все виды скидок', 'Push-уведомления']
-                    li(class="item-" + (i+1))= item
+                    li(class="item-" + (i+1))
+                      .list-border= item
 
               .tariffs
                 -
